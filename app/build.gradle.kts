@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.storage.CacheResetOnProcessCanceled.enabled
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -33,13 +35,25 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
 
-    implementation("androidx.core:core-ktx:1.9.0")
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.10.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    val coreCtxVersion = "1.9.0"
+    implementation("androidx.core:core-ktx:$coreCtxVersion")
+
+    val appcompatVersion = "1.6.1"
+    implementation("androidx.appcompat:appcompat:$appcompatVersion")
+
+    val androidMaterialVersion = "1.9.0"
+    implementation("com.google.android.material:material:$androidMaterialVersion")
+
+    val viewBindingDelegateVersion = "1.5.9"
+    implementation("com.github.kirich1409:viewbindingpropertydelegate-noreflection:$viewBindingDelegateVersion")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
