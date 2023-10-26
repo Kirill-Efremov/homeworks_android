@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">homeworks</string>
+    <string name="phone_number">phone number</string>
+    <string name="button">Button</string>
+    <string-array name="questions">
+        <item>ONE</item>
+        <item>TWO</item>
+        <item>THREE</item>
+        <item>FOUR</item>
+        <item>FIVE</item>
+        <item>SIX</item>
+        <item>SEVEN</item>
+        <item>EIGHT</item>
+        <item>NINE</item>
+
+
+    </string-array>
+    <string-array name="answers">
+        <item>1</item>
+        <item> 2</item>
+        <item> 3 </item>
+        <item>4</item>
+        <item> 5</item>
+        <item> 6 </item>
+        <item>7</item>
+        <item> 8</item>
+        <item> 9 </item>
+    </string-array>
+
 </resources>
