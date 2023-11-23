@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/startFragment">
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="ru.kpfu.homeworks.ui.StartFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_start">
+        <action
+            android:id="@+id/action_mainFragment_to_notificationSettingsFragment"
+            app:destination="@id/settingsNotificationsFragmentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsNotificationsFragmentFragment"
+        android:name="ru.kpfu.homeworks.ui.SettingsNotificationsFragment"
+        android:label="SettingsNotificationsFragment"
+        tools:layout="@layout/fragment_settings_notifications" />
+
+    <fragment
+        android:id="@+id/settingsCoroutinesFragment"
+        android:name="ru.kpfu.homeworks.ui.SettingsCoroutineFragment"
+        android:label="CoroutinesFragment"
+        tools:layout="@layout/fragment_coroutine" />
+</navigation>
