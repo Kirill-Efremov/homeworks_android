@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/count_of_coroutine" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="9"
+        android:progress="1" />
+
+    <CheckBox
+        android:id="@+id/cb_async"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/async" />
+
+    <CheckBox
+        android:id="@+id/cb_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_on_background" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_execute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выполнить" />
+
+</LinearLayout>

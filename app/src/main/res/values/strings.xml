@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">homeworks</string>
+    <string name="app_name">Homework 4</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="send_message">Send Message</string>
+    <string name="menu_start">Start</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_coroutines">Coroutines</string>
+    <string name="notification_channel_id">notification channel id</string>
+    <string name="urgent">Urgent</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="rb_secret">Secret</string>
+    <string name="rb_public">Public</string>
+    <string name="rb_private">Private</string>
+    <string name="toast_message">You press button make Toast</string>
+    <string name="stop_on_background">Stop on background</string>
+    <string name="async">Async</string>
+    <string name="count_of_coroutine">Count of coroutine</string>
+    <string name="job_finish">My job here is done</string>
+    <string name="app_turned_off">application is turned off</string>
+    <string name="coroutine_text">Coroutine</string>
+    <string name="open_settings">Open settings</string>
+    <string name="remove_notifications_through_settings">remove notifications through settings</string>
+    <string name="permit_text">Permit</string>
+    <string name="permit_notifications_settings">Permit notifications through settings</string>
+    <string name="no_connection">NO CONNECTION</string>
 </resources>

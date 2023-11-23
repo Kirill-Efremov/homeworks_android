@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Importance" />
+
+
+    <RadioGroup
+        android:id="@+id/rg_importance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medium" />
+
+        <RadioButton
+            android:id="@+id/rb_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/high" />
+
+        <RadioButton
+            android:id="@+id/rb_urgent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/urgent" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Visibility" />
+
+    <RadioGroup
+        android:id="@+id/rg_visibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_private"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_private" />
+
+        <RadioButton
+            android:id="@+id/rb_secret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_secret" />
+
+        <RadioButton
+            android:id="@+id/rb_public"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_public" />
+
+    </RadioGroup>
+
+
+    <CheckBox
+        android:id="@+id/cb_detailed_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Подробное сообщение" />
+
+    <CheckBox
+        android:id="@+id/cb_display_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать кнопки" />
+
+</LinearLayout>
