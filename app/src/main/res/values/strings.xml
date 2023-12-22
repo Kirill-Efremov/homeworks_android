@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">homeworks</string>
+    <string name="epmty_fields">Все поля должны быть заполнены</string>
+    <string name="input_name">Введите имя пользователя</string>
+    <string name="input_phone">Введите номер телефона</string>
+    <string name="input_email">Введите почту</string>
+    <string name="input_password">Введите пароль</string>
+    <string name="log_in">Войти в существующий аккаунт \n</string>
+    <string name="reg">Зарегеистрировать аккаунт \n</string>
+    <string name="enter_email">Введите email</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="enter">Войти</string>
+    <string name="registration">Зарегестрироваться</string>
+    <string name="enter_title">Введите название фильма</string>
+    <string name="enter_desc">Введите описание фильма</string>
+    <string name="enter_year">Введите год издания фильма</string>
+    <string name="year">year</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="enter_rating">Поставить рейтинг фильму</string>
+    <string name="confirm_rating">подтвердить рейтинг</string>
+    <string name="fav">fav</string>
+    <string name="delete">Delete</string>
+    <string name="deelete_profile">Удалить профиль</string>
+    <string name="exit">Выйти</string>
+    <string name="update_password">Обновить пароль</string>
+    <string name="enter_new_password">Введите новый пароль</string>
+    <string name="enter_pld_password">Введите старый пароль</string>
+    <string name="update_email">Обновить почту</string>
+    <string name="enter_new_email">Введите почту</string>
+    <string name="update_phone">Обновить номер</string>
+    <string name="enter_phine">Введите номер телефона</string>
+    <string name="no_list">Список фильмов пустой</string>
+    <string name="main">Main</string>
+    <string name="add_film">Add Film</string>
+    <string name="profile">Profile</string>
 </resources>
