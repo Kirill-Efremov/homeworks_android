@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="ru.itis.homework.ui.fragments.auth.MainFragment"
+        android:label="MainFragment"
+        />
+
+
+    <fragment
+        android:id="@+id/addFilmFragment"
+        android:name="ru.itis.homework.ui.fragments.auth.AddFilmFragment"
+        android:label="NewSeriesFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.itis.homework.ui.fragments.auth.ProfileFragment"
+        android:label="ProfileFragment"/>
+
+</navigation>
+
+
