@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">homeworks</string>
+    <string name="enter_numer">Введите число элементов</string>
+    <string name="show">Показать</string>
 </resources>
